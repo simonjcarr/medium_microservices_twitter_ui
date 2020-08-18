@@ -1,6 +1,13 @@
 <template>
   <div>
     <div class="text-2xl text-blue-400 mb-5">Realtime Dev Tweets</div>
+    <div class="text-xl">Tracking: python, nodejs, and javascript</div>
+    <div>
+      Checkout the tutorial for this micro-services framework at
+      <a href="http://medium-microservices.simoncarr.co.uk/"
+        >http://medium-microservices.simoncarr.co.uk/</a
+      >
+    </div>
     <div
       v-for="tweet in tweets"
       :key="tweet.id"
